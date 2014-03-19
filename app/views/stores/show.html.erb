@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @store.name %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @store.phone %>
+</p>
+
+<p>
+  <strong>Phone2:</strong>
+  <%= @store.phone2 %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @store.email %>
+</p>
+
+<p>
+  <strong>Email2:</strong>
+  <%= @store.email2 %>
+</p>
+
+<p>
+  <strong>Minimum cert amount:</strong>
+  <%= @store.minimum_cert_amount %>
+</p>
+
+<p>
+  <strong>Social networking profile:</strong>
+  <%= @store.social_networking_profile_id %>
+</p>
+
+<%= link_to 'Edit', edit_store_path(@store) %> |
+<%= link_to 'Back', stores_path %>

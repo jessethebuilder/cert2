@@ -1,0 +1,19 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: cert2_dev
+  pool: 5
+  host: localhost
+  port: 5432
+  username: postgres
+  password: hunter
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: cert2_test
+  pool: 5
+  host: localhost
+  port: 5432
+  username: postgres
+  password: hunter

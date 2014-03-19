@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @cert.user_id %>
+</p>
+
+<p>
+  <strong>Amount:</strong>
+  <%= @cert.amount %>
+</p>
+
+<p>
+  <strong>Giver:</strong>
+  <%= @cert.giver_id %>
+</p>
+
+<p>
+  <strong>Note:</strong>
+  <%= @cert.note %>
+</p>
+
+<p>
+  <strong>Giver identifier:</strong>
+  <%= @cert.giver_identifier %>
+</p>
+
+<%= link_to 'Edit', edit_cert_path(@cert) %> |
+<%= link_to 'Back', certs_path %>

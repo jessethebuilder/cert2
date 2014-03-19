@@ -1,0 +1,35 @@
+<h1>Listing certs</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>User</th>
+      <th>Amount</th>
+      <th>Giver</th>
+      <th>Note</th>
+      <th>Giver identifier</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @certs.each do |cert| %>
+      <tr>
+        <td><%= cert.user_id %></td>
+        <td><%= cert.amount %></td>
+        <td><%= cert.giver_id %></td>
+        <td><%= cert.note %></td>
+        <td><%= cert.giver_identifier %></td>
+        <td><%= link_to 'Show', cert %></td>
+        <td><%= link_to 'Edit', edit_cert_path(cert) %></td>
+        <td><%= link_to 'Destroy', cert, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Cert', new_cert_path %>
