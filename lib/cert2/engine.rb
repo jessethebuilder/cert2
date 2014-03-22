@@ -1,6 +1,6 @@
 module Cert2
   class Engine < ::Rails::Engine
-    isolate_namespace EngineWithMigrations
+    #isolate_namespace EngineWithMigrations
 
     config.generators do |g|
       g.test_framework :rspec, :fixture => false
