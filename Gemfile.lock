@@ -16,16 +16,8 @@ PATH
   remote: .
   specs:
     cert2 (0.0.1)
-      bootstrap-sass (~> 3.0.3.0)
-      devise
-      farm_tools
-      koala
-      omniauth
-      omniauth-facebook
       pg
       rails (~> 4.0.4)
-      sass-rails (~> 4.0.2)
-      twitter_express
 
 GEM
   remote: https://rubygems.org/
@@ -112,10 +104,6 @@ GEM
       thor (>= 0.14, < 2.0)
     jwt (0.1.11)
       multi_json (>= 1.5)
-    koala (1.9.0)
-      addressable
-      faraday
-      multi_json
     launchy (2.3.0)
       addressable (~> 2.3)
     listen (2.7.1)

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c485f56-026f-4eab-b61c-cab1041908cf" name="Default" comment="">
+    <list default="true" id="8c485f56-026f-4eab-b61c-cab1041908cf" name="Default" comment="Initial commit&#10;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/cert2.iml" afterPath="$PROJECT_DIR$/.idea/cert2.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cert2.gemspec" afterPath="$PROJECT_DIR$/cert2.gemspec" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cert2.iws" />
@@ -44,7 +45,17 @@
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/certs.js.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="21" column="42" selection-start="606" selection-end="606" vertical-scroll-proportion="-13.8" vertical-offset="12" max-vertical-offset="765">
-              <folding />
+              <folding>
+                <marker date="1395528182068" expanded="true" signature="105:480" placeholder="{...}" />
+                <marker date="1395528182068" expanded="true" signature="188:438" placeholder="{...}" />
+                <marker date="1395528182068" expanded="true" signature="514:616" placeholder="{...}" />
+                <marker date="1395528182068" expanded="true" signature="528:612" placeholder="{&quot;appId&quot;: '1405477876366613'...}" />
+                <marker date="1395528182068" expanded="true" signature="674:723" placeholder="{...}" />
+                <marker date="1395528182068" expanded="true" signature="755:965" placeholder="{...}" />
+                <marker date="1395528182068" expanded="true" signature="832:939" placeholder="{...}" />
+                <marker date="1395528182068" expanded="true" signature="865:935" placeholder="{...}" />
+                <marker date="1395528182068" expanded="true" signature="884:925" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,7 +64,24 @@
         <entry file="file://$PROJECT_DIR$/app/views/certs/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="72" column="9" selection-start="1498" selection-end="1498" vertical-scroll-proportion="-11.269231" vertical-offset="931" max-vertical-offset="1326">
-              <folding />
+              <folding>
+                <marker date="1395527881195" expanded="true" signature="6:439" placeholder="..." />
+                <marker date="1395527881195" expanded="true" signature="19:136" placeholder="{...}" />
+                <marker date="1395527881195" expanded="true" signature="151:186" placeholder="{...}" />
+                <marker date="1395527881195" expanded="true" signature="210:286" placeholder="{...}" />
+                <marker date="1395527881195" expanded="true" signature="301:431" placeholder="{...}" />
+                <marker date="1395527881195" expanded="true" signature="561:1469" placeholder="..." />
+                <marker date="1395527881195" expanded="true" signature="611:1002" placeholder="..." />
+                <marker date="1395527881195" expanded="true" signature="640:976" placeholder="..." />
+                <marker date="1395527881195" expanded="true" signature="751:896" placeholder="..." />
+                <marker date="1395527881195" expanded="true" signature="949:964" placeholder="..." />
+                <marker date="1395527881195" expanded="true" signature="1066:1376" placeholder="..." />
+                <marker date="1395527881195" expanded="true" signature="1095:1350" placeholder="..." />
+                <marker date="1395527881195" expanded="true" signature="1107:1338" placeholder="..." />
+                <marker date="1395527881195" expanded="true" signature="1173:1325" placeholder="..." />
+                <marker date="1395527881195" expanded="true" signature="1248:1307" placeholder="..." />
+                <marker date="1395527881195" expanded="true" signature="1438:1448" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,7 +108,9 @@
         <entry file="file://$PROJECT_DIR$/app/helpers/certs_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="14" column="9" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-              <folding />
+              <folding>
+                <marker date="1395526105589" expanded="true" signature="18:361" placeholder=" ... end" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -103,10 +133,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="31" selection-start="525" selection-end="525" vertical-scroll-proportion="0.7873684" vertical-offset="51" max-vertical-offset="663">
+            <state line="35" column="0" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0" vertical-offset="154" max-vertical-offset="697">
               <folding />
             </state>
           </provider>
@@ -116,6 +146,15 @@
         <entry file="file://$PROJECT_DIR$/config/initializers/cert_setup.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="10" column="28" selection-start="344" selection-end="362" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cert2.gemspec" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cert2.gemspec">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="2" selection-start="762" selection-end="762" vertical-scroll-proportion="0.47577092" vertical-offset="226" max-vertical-offset="680">
               <folding />
             </state>
           </provider>
@@ -165,7 +204,6 @@
         <option value="$PROJECT_DIR$/spec/features/login_requests_spec.rb" />
         <option value="$PROJECT_DIR$/spec/dummy/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/spec/dummy/app/assets/stylesheets/application.css.scss" />
-        <option value="$PROJECT_DIR$/cert2.gemspec" />
         <option value="$PROJECT_DIR$/Gemfile.lock" />
         <option value="$PROJECT_DIR$/app/views/certs/new.html.erb" />
         <option value="$PROJECT_DIR$/app/models/store.rb" />
@@ -183,6 +221,7 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/certs.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/certs.js.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/cert2.gemspec" />
       </list>
     </option>
   </component>
@@ -945,15 +984,19 @@
       <created>1395528361163</created>
       <updated>1395528361163</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit&#10;">
+      <created>1395528610044</created>
+      <updated>1395528610044</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32479784" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32479784" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884097" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1176,13 +1219,6 @@
         <state line="205" column="2" selection-start="4963" selection-end="4963" vertical-scroll-proportion="0.0" vertical-offset="3343" max-vertical-offset="4658" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cert2.gemspec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="43" selection-start="701" selection-end="701" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="680">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MIT-LICENSE">
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
@@ -1254,7 +1290,9 @@
     <entry file="file://$PROJECT_DIR$/app/helpers/certs_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="9" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-          <folding />
+          <folding>
+            <marker date="1395526105589" expanded="true" signature="18:361" placeholder=" ... end" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1268,6 +1306,47 @@
     <entry file="file://$PROJECT_DIR$/app/views/certs/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="72" column="9" selection-start="1498" selection-end="1498" vertical-scroll-proportion="-11.269231" vertical-offset="931" max-vertical-offset="1326">
+          <folding>
+            <marker date="1395527881195" expanded="true" signature="6:439" placeholder="..." />
+            <marker date="1395527881195" expanded="true" signature="19:136" placeholder="{...}" />
+            <marker date="1395527881195" expanded="true" signature="151:186" placeholder="{...}" />
+            <marker date="1395527881195" expanded="true" signature="210:286" placeholder="{...}" />
+            <marker date="1395527881195" expanded="true" signature="301:431" placeholder="{...}" />
+            <marker date="1395527881195" expanded="true" signature="561:1469" placeholder="..." />
+            <marker date="1395527881195" expanded="true" signature="611:1002" placeholder="..." />
+            <marker date="1395527881195" expanded="true" signature="640:976" placeholder="..." />
+            <marker date="1395527881195" expanded="true" signature="751:896" placeholder="..." />
+            <marker date="1395527881195" expanded="true" signature="949:964" placeholder="..." />
+            <marker date="1395527881195" expanded="true" signature="1066:1376" placeholder="..." />
+            <marker date="1395527881195" expanded="true" signature="1095:1350" placeholder="..." />
+            <marker date="1395527881195" expanded="true" signature="1107:1338" placeholder="..." />
+            <marker date="1395527881195" expanded="true" signature="1173:1325" placeholder="..." />
+            <marker date="1395527881195" expanded="true" signature="1248:1307" placeholder="..." />
+            <marker date="1395527881195" expanded="true" signature="1438:1448" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/certs.js.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="42" selection-start="606" selection-end="606" vertical-scroll-proportion="-13.8" vertical-offset="12" max-vertical-offset="765">
+          <folding>
+            <marker date="1395528182068" expanded="true" signature="105:480" placeholder="{...}" />
+            <marker date="1395528182068" expanded="true" signature="188:438" placeholder="{...}" />
+            <marker date="1395528182068" expanded="true" signature="514:616" placeholder="{...}" />
+            <marker date="1395528182068" expanded="true" signature="528:612" placeholder="{&quot;appId&quot;: '1405477876366613'...}" />
+            <marker date="1395528182068" expanded="true" signature="674:723" placeholder="{...}" />
+            <marker date="1395528182068" expanded="true" signature="755:965" placeholder="{...}" />
+            <marker date="1395528182068" expanded="true" signature="832:939" placeholder="{...}" />
+            <marker date="1395528182068" expanded="true" signature="865:935" placeholder="{...}" />
+            <marker date="1395528182068" expanded="true" signature="884:925" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0" vertical-offset="154" max-vertical-offset="697">
           <folding />
         </state>
       </provider>
@@ -1279,16 +1358,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/certs.js.erb">
+    <entry file="file://$PROJECT_DIR$/cert2.gemspec">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="42" selection-start="606" selection-end="606" vertical-scroll-proportion="-13.8" vertical-offset="12" max-vertical-offset="765">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="31" selection-start="525" selection-end="525" vertical-scroll-proportion="0.7873684" vertical-offset="51" max-vertical-offset="663">
+        <state line="26" column="2" selection-start="762" selection-end="762" vertical-scroll-proportion="0.47577092" vertical-offset="226" max-vertical-offset="680">
           <folding />
         </state>
       </provider>
