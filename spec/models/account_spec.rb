@@ -9,6 +9,9 @@ describe Account do
 
   describe 'Associations' do
     it{ should belong_to :user }
+    it{ should have_many :transactions }
+    it{ should have_many :certs }
+
   end
 
   describe 'Defaults' do
@@ -23,9 +26,13 @@ describe Account do
   describe 'Methods' do
     describe '<<(val)' do
       it 'should add the amount of #val to #credits' do
-        account.credits = 0
-        account << 100
-        account.credits.should == 100
+        expect{ account << 100 }.to change{ account.credits }.by(100)
+      end
+    end
+
+    describe '>>(val)' do
+      it 'should add the amount of #val to #debits' do
+        expect{ account >> 100 }.to change{ account.debits }.by(100)
       end
     end
   end

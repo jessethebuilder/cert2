@@ -1,37 +1,73 @@
+<style>
+  .cert_col{
+      height: 300px;
+      /*background-color: rgba(169, 169, 169, 0.27);*/
+      color: rgba(14, 2, 12, 0.80);
+  }
+  .cert_col h2{
+      vertical-align: middle;
+  }
+
+  .cert_col .inner_col{
+      padding: 10px;
+      border: 1px solid red;
+      height: 300px;
+  }
+  .blocker_col{
+      position: relative;
+      /*top: -10%;*/
+      /*left: -100%;*/
+      color: rgba(0, 0, 0, 0.51);
+      height: 300px;
+  }
+</style>
+
+
 <%= form_for(@cert) do |f| %>
-  <% if @cert.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@cert.errors.count, "error") %> prohibited this cert from being saved:</h2>
+ <%= error_explanation @cert, :include_text_explanation => false %>
 
-      <ul>
-      <% @cert.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
-      <% end %>
-      </ul>
-    </div>
-  <% end %>
 
-  <div class="field">
-    <%= f.label :user_id %><br>
-    <%= f.number_field :user_id %>
-  </div>
-  <div class="field">
-    <%= f.label :amount %><br>
-    <%= f.text_field :amount %>
-  </div>
-  <div class="field">
-    <%= f.label :giver_id %><br>
-    <%= f.number_field :giver_id %>
-  </div>
-  <div class="field">
-    <%= f.label :note %><br>
-    <%= f.text_area :note %>
-  </div>
-  <div class="field">
-    <%= f.label :giver_identifier %><br>
-    <%= f.text_field :giver_identifier %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
+
+ <div class="row">
+   <div id="giver_col" class="col-md-4 cert_col">
+     <div class="inner_col">
+       <h2>From:</h2>
+
+       <% if user_signed_in? %>
+
+
+
+       <% else %>
+
+         <div class="form-group">
+           <%= link_to image_tag('social_networking_buttons/fb_sign_in.png'), '#', :class => 'custom_button facebook_sign_in' %>
+         </div>
+
+       <% end %>
+
+
+       <div class="blocker_col">
+
+       </div>
+     </div><!--inner col-->
+   </div><!--col-->
+
+   <div id="receiver_col" class="col-md-4 cert_col">
+     <div class="inner_col">
+       <h2>
+         Please login to select a Recipient.<br>
+         <small>You can send our gift certificates via:
+           <ul id="giving_options">
+             <%= to_li(GIVING_OPTIONS) %>
+           </ul>
+         </small>
+       </h2>
+     </div><!--inner col-->
+   </div><!--col-->
+
+   <div id="amount_col" class="col-md-4 cert_col">
+   </div><!--col-->
+
+   </div><!--col-->
+ </div>
 <% end %>

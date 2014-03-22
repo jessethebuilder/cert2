@@ -1,8 +1,5 @@
 source "https://rubygems.org"
 
-# Declare your gem's dependencies in cert2.gemspec.
-# Bundler will treat runtime dependencies like base dependencies, and
-# development dependencies will be added by default to the :development group.
 gemspec
 
 group :test, :development do
@@ -20,11 +17,18 @@ group :test do
   gem 'selenium-webdriver'
   gem 'shoulda'
   gem 'launchy', '~> 2.3.0'
-  #gem 'webrat'
 end
+
+gem 'jquery-rails'
 
 gem 'farm_tools', :path => 'C:\Users\jf\Desktop\jesseweb\farm_tools'
 #gem 'farm_tools', :git => 'https://github.com/jessethebuilder/farm_tools'
 gem 'twitter_express', :git => 'https://github.com/jessethebuilder/TwitterExpress'
 
 gem 'devise'
+#gem 'koala'
+gem 'omniauth'
+gem 'omniauth-facebook'
+
+gem 'sass-rails', '~> 4.0.2'
+gem 'bootstrap-sass', '~> 3.0.3.0'

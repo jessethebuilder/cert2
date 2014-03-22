@@ -22,7 +22,9 @@ Gem::Specification.new do |s|
   s.add_dependency 'farm_tools'
   s.add_dependency 'twitter_express'
 
+  s.add_dependency 'sass-rails', '~> 4.0.2'
   s.add_dependency 'bootstrap-sass', '~> 3.0.3.0'
+
   s.add_dependency 'koala'
   s.add_dependency 'devise'
   s.add_dependency 'omniauth'

@@ -42,6 +42,8 @@ class DeviseCreateUsers < ActiveRecord::Migration
       t.datetime :oauth_expires_at
       t.string :facebook_image
 
+
+
       t.timestamps
     end
 

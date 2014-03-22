@@ -42,7 +42,7 @@ class Cert < ActiveRecord::Base
 
   #Methods
   def credit
-    raise(StandardError, 'cannot credit without an authorized receiver account') if account_id.nil?
+    raise(StandardError, 'cannot credit without an account') if account_id.nil?
     account << amount
     self.credited = true
     save

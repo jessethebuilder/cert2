@@ -1,4 +1,7 @@
 module CertsHelper
+  include ErrorsHelper
+  include HtmlTools
+
   def cert_store
     Store.first
   end
@@ -6,4 +9,19 @@ module CertsHelper
   def current_user_is_admin?
     user_signed_in? || current_user.admin?
   end
+
+  #for Devise
+  def resource_name
+    :user
+  end
+
+  def resource
+    @resource ||= User.new
+  end
+
+  def devise_mapping
+    @devise_mapping ||= Devise.mappings[:user]
+  end
+
+
 end

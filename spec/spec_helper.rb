@@ -4,6 +4,8 @@ require 'rspec/rails'
 require 'rspec/autorun'
 require 'factory_girl_rails'
 require 'factories'
+require 'farm_tools/spec_helper_helper'
+
 Rails.backtrace_cleaner.remove_silencers!
 # Load support files
 Dir["#{File.dirname(__FILE__)}/support/**/*.rb"].each { |f| require f }

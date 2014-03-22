@@ -1,0 +1,39 @@
+//= require jquery
+//= require jquery_ujs
+//= require bootstrap
+
+//Facebook
+
+$(document).ready(function(){
+    $('body').prepend('<div id="facebook-root"></div>');
+
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/all.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+});
+window.fbAsyncInit = function(){
+    FB.init({
+        appId: '1405477876366613',
+        cookie: true,
+        xfbml: true
+    });
+};
+$(document).on('click', '.facebook_sign_in', function(e){
+    e.preventDefault();
+    fbLogin('email');
+});
+function fbLogin(permissions){
+  callback = 'users/auth/facebook/callback';
+
+  FB.login(function(response){
+      if(response.authResponse){
+          $.ajax({
+              url: callback
+          });
+      }
+  }, {scope: permissions});
+}
