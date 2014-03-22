@@ -254,7 +254,7 @@
     <orderEntry type="library" scope="PROVIDED" name="factory_girl_rails (v4.4.1, ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="faker (v1.3.0, ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="faraday (v0.9.0, ruby-2.0.0-p353) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="farm_tools (v0.0.1, C:/Users/jf/Desktop/jesseweb/farm_tools) [path][gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="farm_tools (v0.0.1@19db2b, ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ffi (v1.9.3, ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="formatador (v0.2.4, ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="guard (v2.5.1, ruby-2.0.0-p353) [gem]" level="application" />
