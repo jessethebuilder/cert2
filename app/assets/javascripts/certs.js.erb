@@ -17,14 +17,14 @@ $(document).ready(function(){
 });
 window.fbAsyncInit = function(){
     FB.init({
-        appId: '1405477876366613',
+        appId: '<%= FB_ID %>',
         cookie: true,
         xfbml: true
     });
 };
 $(document).on('click', '.facebook_sign_in', function(e){
     e.preventDefault();
-    fbLogin('email');
+    fbLogin('<%= FB_PERMISSIONS %>');
 });
 function fbLogin(permissions){
   callback = 'users/auth/facebook/callback';
