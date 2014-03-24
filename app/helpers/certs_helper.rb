@@ -6,6 +6,10 @@ module CertsHelper
     Store.first
   end
 
+  def store_name
+    cert_store ? cert_store.name : '[Your Store Here]'
+  end
+
   def current_user_is_admin?
     user_signed_in? || current_user.admin?
   end
@@ -22,6 +26,4 @@ module CertsHelper
   def devise_mapping
     @devise_mapping ||= Devise.mappings[:user]
   end
-
-
 end
