@@ -25,6 +25,7 @@ ActiveRecord::Schema.define(version: 20140318094805) do
   end
 
   create_table "addresses", force: true do |t|
+    t.string   "label"
     t.string   "street"
     t.string   "street2"
     t.string   "street3"

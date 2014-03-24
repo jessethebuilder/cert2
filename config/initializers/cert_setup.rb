@@ -8,7 +8,9 @@
 
 ::GIVING_OPTIONS = %w|facebook twitter email mail|
 
-::FB_ID = '1405477876366613'
-::FB_SECRET = '411d2788e5cd4d73765b276dfae33476'
+::FB_APP_NAME = 'Certs Demo'
+::FB_ID = '1415494142042598'
+::FB_SECRET = '02482a89d8988daf8cb3bae9d05cbfac'
+
 ::FB_PERMISSIONS = 'email'
 

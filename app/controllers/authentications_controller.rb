@@ -2,7 +2,6 @@ class AuthenticationsController < ApplicationController
   #before_action :set_authentication, only: [:show, :edit, :update, :destroy]
 
   def facebook_callback
-    @e = env
     h = env["omniauth.auth"]
     u = User.parse_omniauth(h, current_user)
     if u.save!
