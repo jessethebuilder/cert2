@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c485f56-026f-4eab-b61c-cab1041908cf" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/cert2.iml" afterPath="$PROJECT_DIR$/.idea/cert2.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cert2.iws" />
@@ -49,10 +51,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="362" selection-end="362" vertical-scroll-proportion="0.6442105" vertical-offset="0" max-vertical-offset="475">
+            <state line="18" column="0" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
               <folding />
             </state>
           </provider>
@@ -94,10 +96,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="14" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+            <state line="25" column="16" selection-start="510" selection-end="510" vertical-scroll-proportion="0.46526316" vertical-offset="204" max-vertical-offset="697">
               <folding />
             </state>
           </provider>
@@ -173,12 +175,12 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/config/initializers/omniauth.rb" />
         <option value="$PROJECT_DIR$/app/views/authentications/facebook_auth_callback.html.erb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/lib/cert2/engine.rb" />
         <option value="$PROJECT_DIR$/app/views/certs/facebook_js.html.erb" />
         <option value="$PROJECT_DIR$/app/helpers/certs_helper.rb" />
         <option value="$PROJECT_DIR$/app/helpers/facebook_helper.rb" />
         <option value="$PROJECT_DIR$/app/controllers/authentications_controller.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -661,7 +663,11 @@
       <created>1395729192463</created>
       <updated>1395729192463</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Initial commit&#10;">
+      <created>1395729936290</created>
+      <updated>1395729936290</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -962,13 +968,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="14" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/facebook_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
@@ -992,7 +991,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="362" selection-end="362" vertical-scroll-proportion="0.6442105" vertical-offset="0" max-vertical-offset="475">
+        <state line="18" column="0" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="16" selection-start="510" selection-end="510" vertical-scroll-proportion="0.46526316" vertical-offset="204" max-vertical-offset="697">
           <folding />
         </state>
       </provider>
