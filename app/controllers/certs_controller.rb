@@ -1,6 +1,10 @@
 class CertsController < ApplicationController
   before_action :set_cert, only: [:show, :edit, :update, :destroy]
 
+  def facebook_js
+
+  end
+
   # GET /certs
   def index
     @certs = Cert.all

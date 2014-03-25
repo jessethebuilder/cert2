@@ -21,14 +21,14 @@ end
 
 gem 'jquery-rails'
 
-#gem 'farm_tools', :path => 'C:\Users\jf\Desktop\jesseweb\farm_tools'
-gem 'farm_tools', :git => 'https://github.com/jessethebuilder/farm_tools'
+gem 'farm_tools', :path => 'C:\Users\jf\Desktop\jesseweb\farm_tools'
+#gem 'farm_tools', :git => 'https://github.com/jessethebuilder/farm_tools'
 gem 'twitter_express', :git => 'https://github.com/jessethebuilder/TwitterExpress'
 
 gem 'devise'
-#gem 'koala'
-gem 'omniauth'
-gem 'omniauth-facebook'
+gem 'koala'
+#gem 'omniauth'
+#gem 'omniauth-facebook'
 
 gem 'sass-rails', '~> 4.0.2'
 gem 'bootstrap-sass', '~> 3.0.3.0'

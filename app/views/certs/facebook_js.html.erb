@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+
+  </style>
+  <meta charset="utf-8">
+  <title>Facebook Sandbox</title>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+</head>
+<body>
+<a href="#" class="facebook_login">Click me</a>
+
+
+
+<script>
+    $(document).ready(function(){
+        $('body').prepend('<div id="facebook-root"></div>');
+
+        (function(d, s, id){
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {return;}
+            js = d.createElement(s); js.id = id;
+            js.src = "http://connect.facebook.net/en_US/all.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    });
+    window.fbAsyncInit = function(){
+        FB.init({
+            appId: '<%= FB_ID %>',
+            cookie: true,
+            xfbml: true
+        });
+    };
+    $(document).on('click', '.facebook_login', function(e){
+        e.preventDefault();
+        fbLogin();
+    });
+    function fbLogin(permissions){
+        FB.login(function(response){
+            if(response.authResponse){
+                $.ajax({
+                    url: 'facebook_auth/callback'
+                });
+            }
+        }, {scope: permissions});
+    };
+</script>
+
+<script>
+    $(document).on('click', '.click', function(e){
+        FB.api('/me', function(r){
+            console.log(r);
+        });
+    })
+</script>
+
+
+</body>
+</html>

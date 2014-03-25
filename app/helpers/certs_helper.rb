@@ -1,4 +1,5 @@
 module CertsHelper
+  #include FacebookHelper
   include ErrorsHelper
   include HtmlTools
 
